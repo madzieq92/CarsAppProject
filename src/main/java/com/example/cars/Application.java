@@ -1,4 +1,4 @@
-package com.example.application;
+package com.example.cars;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
