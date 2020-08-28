@@ -1,13 +1,9 @@
 package com.example.cars.model;
 
 import lombok.*;
-import org.hibernate.annotations.Formula;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.ui.Model;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import java.awt.*;
 
 @Getter
 @Setter
@@ -23,5 +19,16 @@ public class Car {
     private Long id;
 
     private Make make;
+    private CarModel model;
+    private CarStyle carStyle;
+    private int year;
+    private double distance;
+    private int power;
+    private CarEngine carEngine;
+    private double price;
+    private Color exteriorColor;
+    private Color interiorColor;
+    private boolean metallic;
+
 
 }
